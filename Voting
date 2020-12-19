@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+
+int main()      
+{
+ clrscr();
+ int age,gap;
+ cout<<"Enter the age of the person:";
+ cin>>age;
+ 
+
+ if(age>=18)
+{
+ cout<<"\n Congratulations,You are eligible to give vote";
+}
+ else
+{
+ gap=18-age;
+ cout<<"\n You will be eligible for voting after"<<gap<<"years";
+ }
+return 0;
+}
