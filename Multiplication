@@ -9,4 +9,5 @@ void main()
  cin>>b;
  c=a*b;
  cout<<"\n The product is:"<<c;
+ getch();
 }
